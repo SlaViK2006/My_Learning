@@ -1,0 +1,6 @@
+/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/CMakeFiles/Tutorial.dir
+/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/CMakeFiles/edit_cache.dir
+/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/CMakeFiles/rebuild_cache.dir
+/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions/CMakeFiles/edit_cache.dir
+/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions/CMakeFiles/rebuild_cache.dir

@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # TODO 7: Create a variable USE_MYMATH using option and set default to ON
-
+option(USE_MYMATH "Use tutorial provided math implementation" ON)
 # configure a header file to pass some of the CMake settings
 # to the source code
 configure_file(TutorialConfig.h.in TutorialConfig.h)
@@ -17,7 +17,6 @@ configure_file(TutorialConfig.h.in TutorialConfig.h)
 # called  EXTRA_LIBS and a list of optional include directories called
 # EXTRA_INCLUDES. Add the MathFunctions library and source directory to
 # the appropriate lists.
-#
 # Only call add_subdirectory and only add MathFunctions specific values
 # to EXTRA_LIBS and EXTRA_INCLUDES if USE_MYMATH is true.
 

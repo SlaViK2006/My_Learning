@@ -192,8 +192,7 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.o: /home/viachaslau/Documents/My_Learning/C
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
-  TutorialConfig.h \
-  /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/MathFunctions.h
+  TutorialConfig.h
 
 
 TutorialConfig.h:
@@ -513,8 +512,6 @@ TutorialConfig.h:
 /usr/include/c++/12/bits/exception_defines.h:
 
 /usr/include/c++/12/bits/locale_classes.h:
-
-/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/MathFunctions.h:
 
 /usr/include/c++/12/bits/cxxabi_init_exception.h:
 

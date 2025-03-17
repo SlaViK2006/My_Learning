@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/MathFunctions.cxx" "MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o" "gcc" "MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o.d"
   "/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/mysqrt.cxx" "MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o" "gcc" "MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o.d"
   )
 

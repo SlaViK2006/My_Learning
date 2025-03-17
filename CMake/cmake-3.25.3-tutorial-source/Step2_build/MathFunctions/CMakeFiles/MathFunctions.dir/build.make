@@ -69,10 +69,24 @@ include MathFunctions/CMakeFiles/MathFunctions.dir/progress.make
 # Include the compile flags for this target's objects.
 include MathFunctions/CMakeFiles/MathFunctions.dir/flags.make
 
+MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o: MathFunctions/CMakeFiles/MathFunctions.dir/flags.make
+MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o: /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/MathFunctions.cxx
+MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o: MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o"
+	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o -MF CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o.d -o CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o -c /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/MathFunctions.cxx
+
+MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathFunctions.dir/MathFunctions.cxx.i"
+	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/MathFunctions.cxx > CMakeFiles/MathFunctions.dir/MathFunctions.cxx.i
+
+MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathFunctions.dir/MathFunctions.cxx.s"
+	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/MathFunctions.cxx -o CMakeFiles/MathFunctions.dir/MathFunctions.cxx.s
+
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: MathFunctions/CMakeFiles/MathFunctions.dir/flags.make
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/mysqrt.cxx
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o"
 	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -MF CMakeFiles/MathFunctions.dir/mysqrt.cxx.o.d -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -c /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2/MathFunctions/mysqrt.cxx
 
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i: cmake_force
@@ -85,15 +99,17 @@ MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s: cmake_force
 
 # Object files for target MathFunctions
 MathFunctions_OBJECTS = \
+"CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o" \
 "CMakeFiles/MathFunctions.dir/mysqrt.cxx.o"
 
 # External object files for target MathFunctions
 MathFunctions_EXTERNAL_OBJECTS =
 
+MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/build.make
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMathFunctions.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libMathFunctions.a"
 	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions && $(CMAKE_COMMAND) -P CMakeFiles/MathFunctions.dir/cmake_clean_target.cmake
 	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build/MathFunctions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathFunctions.dir/link.txt --verbose=$(VERBOSE)
 

@@ -130,6 +130,30 @@ MathFunctions/fast:
 	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
+MathFunctions.o: MathFunctions.cxx.o
+.PHONY : MathFunctions.o
+
+# target to build an object file
+MathFunctions.cxx.o:
+	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o
+.PHONY : MathFunctions.cxx.o
+
+MathFunctions.i: MathFunctions.cxx.i
+.PHONY : MathFunctions.i
+
+# target to preprocess a source file
+MathFunctions.cxx.i:
+	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.i
+.PHONY : MathFunctions.cxx.i
+
+MathFunctions.s: MathFunctions.cxx.s
+.PHONY : MathFunctions.s
+
+# target to generate assembly for a file
+MathFunctions.cxx.s:
+	cd /home/viachaslau/Documents/My_Learning/CMake/cmake-3.25.3-tutorial-source/Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.s
+.PHONY : MathFunctions.cxx.s
+
 mysqrt.o: mysqrt.cxx.o
 .PHONY : mysqrt.o
 
@@ -163,6 +187,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MathFunctions"
+	@echo "... MathFunctions.o"
+	@echo "... MathFunctions.i"
+	@echo "... MathFunctions.s"
 	@echo "... mysqrt.o"
 	@echo "... mysqrt.i"
 	@echo "... mysqrt.s"

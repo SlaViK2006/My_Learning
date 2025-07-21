@@ -10,6 +10,8 @@ void setup() {
 
 void loop() {
   readValue = analogRead(A0); //store the value from the potemtiometer
-  
-
+  writeValue = readValue / 4; //divede the readValue by 4 and store as the writeValue
+  analogWrite(9, writeValue); //set first LED brightness to writeValue
+  analogWrite(10, writeValue); //set second LED brightness to writeValue 
+  analogWrite(11, writeValue);  //set third LED brightness to writeValue  
 }

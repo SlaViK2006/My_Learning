@@ -1,0 +1,8 @@
+#!/Users/viachaslauihnatovich/jdk/jdk-25.jdk/Contents/Home/bin/java --source 25 
+
+public class HelloJava {
+	
+	public static void main (String[] args) {
+		IO.println("Hello " + args[0]);
+	}
+}

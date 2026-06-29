@@ -68,7 +68,7 @@ vcpkg_installed/
 Testing/
 .cache/
 
-#Elisp Ignore
+# Elisp.gitignore
 # Compiled
 *.elc
 
@@ -85,4 +85,4 @@ dist/
 *~
 
 # Undo-Tree Save-Files
-*.~undo-tree
+*.!undo-tree

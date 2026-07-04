@@ -19,6 +19,13 @@ int main()
 	  cout<<"If you see "<<friend_name<<" please ask him to call me.\n";
 	else
           cout<<"If you see "<<friend_name<<" please ask her to call me.\n";
+
+	cout<<"How old are you?\n";
+	  int age = 0;
+	cin>>age;
+	if (age <= 0 || age>=110)
+	  simple_error("you're kidding! ");
+        cout<<"I hear you just had a birthday and you are "<<age<<" years old.\n";
 	
 	return 0;
 }
